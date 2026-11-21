@@ -22,7 +22,7 @@
   /* ---- lead ---- */
   .lead { display:flex; gap:12px; padding:8px 0 6px; border-bottom:1px solid #141414; }
   .lp { flex:1; }
-  .lp svg.art { display:block; width:100%; height:74px; background:#e9e2cd;
+  .lp svg.art { display:block; width:100%; height:68px; background:#e9e2cd;
                 border:1px solid #b9ad8d; }
   .lp h2 { font-size:15px; line-height:1.15; margin:5px 0 3px; }
   .lp p { font-size:11px; line-height:1.35; }
@@ -52,13 +52,21 @@
   /* ---- story grid ---- */
   .grid { display:flex; gap:10px; padding:7px 0 4px; background-image:radial-gradient(circle, rgba(20,20,20,.02) 1px, transparent 1.5px); background-size:9px 9px; }
   .col { flex:1; }
-  .it { font-size:10px; line-height:1.28; margin-bottom:5px; }
+  .it { font-size:9.2px; line-height:1.16; margin-bottom:3px; }
   .it .n { color:#9e1b1b; font-weight:800; }
   .it .rg { font-weight:800; font-size:8.5px; }
   .rg{padding:0 2px;}
   .rg.eu{color:#1d3f6e;background:#dbe4f0}.rg.ap{color:#9e1b1b;background:#f3dcdc}.rg.me{color:#7a5c00;background:#efe6c4}.rg.af{color:#2e6b34;background:#d8e8d5}
   .rg.na{color:#5b2d8e;background:#e4d8f0}.rg.la{color:#0f766e;background:#cfe8e4}.rg.oc{color:#b45309;background:#f6e2c8}
   .it b.h { font-weight:800; }
+  .src { font-size:8px; font-weight:800; letter-spacing:.4px; color:#9e1b1b; }
+  .conf { font-size:8px; color:#2e6b34; letter-spacing:1px; }
+  .conf.med { color:#b45309; }
+  .srcmat { border-top:2px solid #141414; border-bottom:1px solid #141414; padding:3px 4px; font-size:8.5px; line-height:1.3; text-align:center; }
+  .srcmat b { font-size:9px; letter-spacing:1px; }
+  .srcmat .k { color:#9e1b1b; font-weight:800; }
+  .bynum { border-bottom:1px solid #141414; padding:3px 4px; font-size:9.5px; line-height:1.35; }
+  .bynum b { letter-spacing:.5px; }
   /* ---- footer ---- */
   .foot { border-top:2px solid #141414; padding-top:3px; font-size:8.5px; color:#555;
           line-height:1.35; text-align:center; }
@@ -92,7 +100,7 @@
         <rect x="0" y="70" width="320" height="4" fill="#14365d"/>
       </svg>
       <h2><span class="num">1 ·</span> THREE POWERS, ONE TABLE</h2>
-      <p><b>Trump, Xi and Putin</b> meet in Shenzhen — the first trilateral summit of the three nuclear powers — and sign a four-point joint peace declaration. No binding arms deal, no Ukraine settlement.</p>
+      <p><span class="src">WSJ</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b>Trump, Xi and Putin</b> meet in Shenzhen — the first trilateral summit of the three nuclear powers — and sign a four-point joint peace declaration. No binding arms deal, no Ukraine settlement.</p>
     </div>
     <div class="lp">
       <svg class="art" viewBox="0 0 320 74" preserveAspectRatio="none">
@@ -110,7 +118,7 @@
         <text x="272" y="66" font-size="9" fill="#5c4a12" font-family="Georgia,serif">9–6</text>
       </svg>
       <h2><span class="num">2 ·</span> GENOCIDE VERDICT</h2>
-      <p>The <b>International Court of Justice</b> finds Myanmar committed genocide against the Rohingya in 2017 — the first time the court has held a state guilty of genocide. Reparations ordered.</p>
+      <p><span class="src">ICJ</span> <span class="conf">&#9679;&#9679;&#9679;</span> The <b>International Court of Justice</b> finds Myanmar committed genocide against the Rohingya in 2017 — the first time the court has held a state guilty of genocide. Reparations ordered.</p>
       <div class="mini">
         <svg viewBox="0 0 64 34"><rect width="64" height="34" fill="#dfe8ee"/><g fill="#6b7c8c"><ellipse cx="34" cy="20" rx="18" ry="9"/><circle cx="52" cy="14" r="8"/><circle cx="50" cy="6" r="2.4"/><circle cx="56" cy="6" r="2.4"/><rect x="20" y="26" width="4" height="7"/><rect x="30" y="27" width="4" height="6"/><rect x="42" y="27" width="4" height="6"/><path d="M16 18 q-6 1 -5 5" fill="none" stroke="#6b7c8c" stroke-width="2"/></g><circle cx="54" cy="12" r="1.2" fill="#141414"/><circle cx="50" cy="17" r="1.6" fill="#3d4a55"/></svg>
         <div><b>40 · FIONA, 9 —</b> the beloved hippo dies at Cincinnati Zoo after swallowing a visitor's knit hat. See story 40.</div>
@@ -128,7 +136,7 @@
         <text x="160" y="14" font-size="9" text-anchor="middle" fill="#5b4a3a" font-family="Georgia,serif">KERCH STRAIT · 19 KM</text>
       </svg>
       <h2><span class="num">3 ·</span> KYIV BRIDGES HIT</h2>
-      <p>Russia's biggest air assault of the war: <b>400+ drones and 110+ missiles</b>, eight killed, three bridges across the Dnipro struck — hours after Ukraine hit the Kerch Bridge a third time.</p>
+      <p><span class="src">REUTERS</span> <span class="conf">&#9679;&#9679;&#9679;</span> Russia's biggest air assault of the war: <b>400+ drones and 110+ missiles</b>, eight killed, three bridges across the Dnipro struck — hours after Ukraine hit the Kerch Bridge a third time.</p>
       <div class="mini">
         <svg viewBox="0 0 64 34"><rect width="64" height="34" fill="#e8f0e4"/><path d="M32 17 m-13 0 a13 13 0 1 1 26 0 a13 13 0 1 1 -26 0" fill="none" stroke="#2e6b34" stroke-width="2"/><path d="M32 17 m-7 0 a7 7 0 1 1 14 0 a7 7 0 1 1 -14 0" fill="none" stroke="#2e6b34" stroke-width="1.6"/><circle cx="32" cy="17" r="2" fill="#2e6b34"/></svg>
         <div><b>12 · CYCLONE AKVAN —</b> landfall near Gopalpur at noon; 80,000+ evacuated. See story 12.</div>
@@ -151,20 +159,20 @@
     <div class="mapbox">
       <svg viewBox="0 0 612 118">
         <rect width="612" height="118" fill="#dce8f0"/>
-        <g stroke="#b9cddd" stroke-width="0.8"><line x1="102" y1="0" x2="102" y2="118"/><line x1="204" y1="0" x2="204" y2="118"/><line x1="306" y1="0" x2="306" y2="118"/><line x1="408" y1="0" x2="408" y2="118"/><line x1="510" y1="0" x2="510" y2="118"/><line x1="0" y1="29" x2="612" y2="29"/><line x1="0" y1="59" x2="612" y2="59"/><line x1="0" y1="89" x2="612" y2="89"/></g>
+        <g stroke="#b9cddd" stroke-width="0.6"><line x1="30" y1="0" x2="30" y2="118"/><line x1="60" y1="0" x2="60" y2="118"/><line x1="90" y1="0" x2="90" y2="118"/><line x1="120" y1="0" x2="120" y2="118"/><line x1="150" y1="0" x2="150" y2="118"/><line x1="180" y1="0" x2="180" y2="118"/><line x1="210" y1="0" x2="210" y2="118"/><line x1="240" y1="0" x2="240" y2="118"/><line x1="270" y1="0" x2="270" y2="118"/><line x1="300" y1="0" x2="300" y2="118"/><line x1="330" y1="0" x2="330" y2="118"/><line x1="360" y1="0" x2="360" y2="118"/><line x1="390" y1="0" x2="390" y2="118"/><line x1="420" y1="0" x2="420" y2="118"/><line x1="450" y1="0" x2="450" y2="118"/><line x1="480" y1="0" x2="480" y2="118"/><line x1="510" y1="0" x2="510" y2="118"/><line x1="540" y1="0" x2="540" y2="118"/><line x1="570" y1="0" x2="570" y2="118"/><line x1="600" y1="0" x2="600" y2="118"/><line x1="0" y1="20" x2="612" y2="20"/><line x1="0" y1="40" x2="612" y2="40"/><line x1="0" y1="60" x2="612" y2="60"/><line x1="0" y1="80" x2="612" y2="80"/><line x1="0" y1="100" x2="612" y2="100"/></g>
         <g fill="none" stroke="#9db8cc" stroke-width="1"><path d="M30 100 q10 -4 20 0 t20 0"/><path d="M240 108 q10 -4 20 0 t20 0"/><path d="M430 100 q10 -4 20 0 t20 0"/><path d="M540 66 q10 -4 20 0 t20 0"/></g>
         <g fill="#d8c9a3" stroke="#8a7a55" stroke-width="1">
-          <path d="M18 14 L150 10 L178 26 L150 52 L96 58 L60 66 L28 44 Z"/>
-          <path d="M150 66 L196 62 L212 84 L196 108 L168 100 L152 82 Z"/>
-          <path d="M292 14 L352 10 L366 30 L340 44 L300 40 L288 26 Z"/>
-          <path d="M296 50 L356 46 L372 70 L352 104 L318 96 L296 72 Z"/>
-          <path d="M372 12 L596 8 L600 34 L540 52 L470 58 L400 44 L372 30 Z"/>
-          <path d="M520 84 L596 82 L600 100 L548 108 L524 96 Z"/>
+          <path d="M18 14 L150 10 L178 26 L150 52 L96 58 L60 66 L28 44 Z" fill="#e8d5a2"/>
+          <path d="M150 66 L196 62 L212 84 L196 108 L168 100 L152 82 Z" fill="#e8d5a2"/>
+          <path d="M292 14 L352 10 L366 30 L340 44 L300 40 L288 26 Z" fill="#cfe3c0"/>
+          <path d="M296 50 L356 46 L372 70 L352 104 L318 96 L296 72 Z" fill="#f0d0a8"/>
+          <path d="M372 12 L596 8 L600 34 L540 52 L470 58 L400 44 L372 30 Z" fill="#f5e6a8"/>
+          <path d="M520 84 L596 82 L600 100 L548 108 L524 96 Z" fill="#c9d8ec"/>
         </g>
-        <g fill="#9e1b1b"><circle cx="522" cy="34" r="3.4"/><circle cx="310" cy="24" r="3.4"/><circle cx="348" cy="28" r="3.4"/><circle cx="392" cy="52" r="3.4"/><circle cx="478" cy="48" r="3.4"/><circle cx="286" cy="62" r="3.4"/><circle cx="118" cy="38" r="3.4"/><circle cx="586" cy="92" r="3.4"/></g>
+        <g fill="#9e1b1b"><circle cx="300" cy="30" r="3"/><circle cx="392" cy="58" r="3"/><circle cx="522" cy="34" r="3.4"/><circle cx="310" cy="24" r="3.4"/><circle cx="348" cy="28" r="3.4"/><circle cx="392" cy="52" r="3.4"/><circle cx="478" cy="48" r="3.4"/><circle cx="286" cy="62" r="3.4"/><circle cx="118" cy="38" r="3.4"/><circle cx="586" cy="92" r="3.4"/></g>
         <g font-size="8.5" fill="#141414" font-family="Arial,sans-serif" font-weight="bold">
-          <text x="528" y="30">SHENZHEN</text><text x="276" y="18">THE HAGUE</text>
-          <text x="352" y="22">KYIV</text><text x="396" y="46">RIYADH</text>
+          <text x="528" y="30">SHENZHEN</text><text x="258" y="14">THE HAGUE</text>
+          <text x="352" y="22">KYIV</text><text x="304" y="40" font-size="8">BRUSSELS</text><text x="396" y="68" font-size="8">GAZA</text><text x="396" y="46">RIYADH</text>
           <text x="252" y="56">SENEGAL</text>
           <text x="86" y="32">NEW YORK</text><text x="560" y="104">FIJI</text>
         </g>
@@ -172,7 +180,7 @@
         <g transform="translate(588,96)"><circle r="11" fill="#f7f2e3" stroke="#141414" stroke-width="1"/><path d="M0 -9 L3 3 L0 0 L-3 3 Z" fill="#9e1b1b"/><text y="4.5" font-size="7" text-anchor="middle" font-weight="bold">N</text></g>
         <text x="458" y="70" font-size="8" fill="#2e6b34" font-weight="bold">ODISHA · AKVAN</text>
       </svg>
-      <div class="mapcap">SCHEMATIC WORLD MAP — NOT TO SCALE · 8 PLACES IN TODAY'S NEWS · CYCLONE SPIRAL MARKS AKVAN OFF INDIA'S EAST COAST</div>
+      <div class="mapcap">SCHEMATIC WORLD MAP — NOT TO SCALE · 10 PLACES IN TODAY'S NEWS · CYCLONE SPIRAL MARKS AKVAN OFF INDIA'S EAST COAST</div>
     </div>
     <div class="tl">
       <h3>OVERNIGHT IN UTC — HOW THE DAY UNFOLDED</h3>
@@ -181,71 +189,72 @@
       <div class="row"><span class="t">THU MORN</span><span>ICJ rules in The Hague: Myanmar committed genocide</span></div>
       <div class="row"><span class="t">THU</span><span>Trump, Xi and Putin meet in Shenzhen; joint declaration signed</span></div>
       <div class="row"><span class="t">THU EVE</span><span>Houthi missile damages the PIF Tower in Riyadh</span></div>
-      <div class="row"><span class="t">THU</span><span>Kerch Bridge hit for the third time this week; rail halted</span></div>
-      <div class="row"><span class="t">FRI 00:00</span><span>IMD: Cyclone Akvan 440 km off Narsapur, landfall due at noon</span></div>
+            <div class="row"><span class="t">FRI 00:00</span><span>IMD: Cyclone Akvan 440 km off Narsapur, landfall due at noon</span></div>
       <div class="row"><span class="t">FRI</span><span>Russia's biggest air attack on Ukraine; GTA 6 posts $3.79B day one</span></div>
     </div>
   </div>
 
+<div class="bynum"><b>BY THE NUMBERS &mdash;</b> <b>400+</b> drones &bull; <b>110+</b> missiles &bull; <b>8</b> killed &bull; <b>$81.3B</b> Anthropic IPO &bull; <b>$3.79B</b> GTA 6 day one &bull; <b>32.5M</b> pre-orders &bull; <b>80,000+</b> evacuated &bull; <b>22,000+</b> children killed in Gaza &bull; <b>$48.3B</b> US Iran campaign &bull; <b>9&ndash;6</b> ICJ vote</div>
   <div class="grid">
     <div class="col">
-      <div class="it"><span class="rg eu">EU</span> <span class="n">4</span> <b class="h">Bridge hit again.</b> Kerch Bridge struck a third time this week; rail to Crimea halted, road span already down.</div>
-      <div class="it"><span class="rg eu">EU</span> <span class="n">5</span> <b class="h">No new Yalta.</b> Merz: Europe will not accept a deal on its future made without Europe.</div>
-      <div class="it"><span class="rg eu">EU</span> <span class="n">6</span> <b class="h">EU–UK summit.</b> Second post-reset summit in Brussels; trade, energy, youth mobility on the table.</div>
-      <div class="it"><span class="rg eu">EU</span> <span class="n">7</span> <b class="h">Greenland deal.</b> Denmark approves a Greenland–US security deal; Pituffik base stays, sovereignty kept.</div>
-      <div class="it"><span class="rg eu">EU</span> <span class="n">8</span> <b class="h">Poland airspace.</b> Three objects — likely two missiles and a drone — violated Polish airspace.</div>
-      <div class="it"><span class="rg eu">EU</span> <span class="n">9</span> <b class="h">Chemical plant hit.</b> Ukrainian drones strike the Dorogobuzh plant in Russia's Smolensk region.</div>
-      <div class="it"><span class="rg eu">EU</span> <span class="n">10</span> <b class="h">Spain debates.</b> Sánchez admits mistakes in a heated election debate as the campaign intensifies.</div>
-      <div class="it"><span class="rg eu">EU</span> <span class="n">11</span> <b class="h">Druzhba hit.</b> Ukraine hits an oil pumping station in Tatarstan, a key Russian export artery.</div>
-      <div class="it"><span class="rg ap">AP</span> <span class="n">12</span> <b class="h">Cyclone Akvan.</b> Landfall near Gopalpur at noon; 80,000+ evacuated, winds gusting to 110 km/h.</div>
-      <div class="it"><span class="rg ap">AP</span> <span class="n">13</span> <b class="h">Japan prices.</b> Core inflation rises to 2.2% in October, fuelling debate on rates and wages.</div>
-      <div class="it"><span class="rg ap">AP</span> <span class="n">14</span> <b class="h">China holds.</b> Benchmark lending rates unchanged for an 18th straight month.</div>
-      <div class="it"><span class="rg ap">AP</span> <span class="n">15</span> <b class="h">Taiwan flags.</b> About 2,700 China-linked accounts flagged over suspected election interference.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">4</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Bridge hit again.</b> Kerch Bridge struck a third time; rail to Crimea halted, road span down.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">5</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">No new Yalta.</b> Merz: Europe will not accept a deal on its future made without Europe.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">6</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">EU–UK summit.</b> Second post-reset summit in Brussels; trade, energy, youth mobility on the table.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">7</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Greenland deal.</b> Denmark approves a Greenland–US security deal; Pituffik base stays, sovereignty kept.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">8</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Poland airspace.</b> Three objects — likely two missiles and a drone — violated Polish airspace.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">9</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Chemical plant hit.</b> Ukrainian drones strike the Dorogobuzh plant in Russia's Smolensk region.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">10</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Spain debates.</b> Sánchez admits mistakes in a heated election debate as the campaign intensifies.</div>
+      <div class="it"><span class="rg eu">EU</span> <span class="n">11</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Druzhba hit.</b> Ukraine hits an oil pumping station in Tatarstan, a key Russian export artery.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">12</span> <span class="src">IMD</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">Cyclone Akvan.</b> Landfall near Gopalpur at noon; 80,000+ evacuated, winds gusting to 110 km/h.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">13</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Japan prices.</b> Core inflation rises to 2.2% in October, fuelling debate on rates and wages.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">14</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">China holds.</b> Benchmark lending rates unchanged for an 18th straight month.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">15</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Taiwan flags.</b> About 2,700 China-linked accounts flagged over election interference.</div>
     </div>
     <div class="col">
-      <div class="it"><span class="rg ap">AP</span> <span class="n">16</span> <b class="h">Japan–India.</b> Tokyo and New Delhi agree to deepen defence and military-industry ties.</div>
-      <div class="it"><span class="rg ap">AP</span> <span class="n">17</span> <b class="h">Cholera case.</b> South Korea confirms its first cholera case in about a decade.</div>
-      <div class="it"><span class="rg ap">AP</span> <span class="n">18</span> <b class="h">Bangladesh.</b> Fresh tension after clashes between supporters of ex-PM Hasina and the leadership.</div>
-      <div class="it"><span class="rg ap">AP</span> <span class="n">19</span> <b class="h">Chip sales.</b> US approved sales of hundreds of thousands of AI chips to China in six months, a House panel says.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">20</span> <b class="h">PIF Tower hit.</b> Houthi missile damages Riyadh's tallest tower; windows blown out across seven floors, no injuries.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">21</span> <b class="h">Hormuz heats.</b> Iran war enters its ninth month as tanker attacks intensify in the strait.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">22</span> <b class="h">Yellow Line.</b> Israeli troops cross the Gaza ceasefire line, the first such move since the truce.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">23</span> <b class="h">Gaza's children.</b> Health authorities say more than 22,000 children have been killed in the war.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">24</span> <b class="h">Iraq deal.</b> Baghdad reaches a deal with Kataib Hezbollah over forces in Jurf al-Sakhar.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">25</span> <b class="h">War's cost.</b> Pentagon puts the US campaign against Iran at about $48.3 billion.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">26</span> <b class="h">Saudi shield.</b> Saudi Arabia intercepts Houthi missiles and drones over its southern region.</div>
-      <div class="it"><span class="rg me">ME</span> <span class="n">27</span> <b class="h">COP31 draft.</b> Antalya draft drops all fossil-fuel phase-out language — but admits the 1.5°C goal will be overshot.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">16</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Japan–India.</b> Tokyo and New Delhi agree to deepen defence and military-industry ties.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">17</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Cholera case.</b> South Korea confirms its first cholera case in about a decade.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">18</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Bangladesh.</b> Fresh tension after clashes between supporters of ex-PM Hasina and the leadership.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">19</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Chip sales.</b> US approved sales of hundreds of thousands of AI chips to China in six months, a panel says.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">20</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">PIF Tower hit.</b> Houthi missile damages Riyadh's tallest tower; windows blown out across seven floors, no injuries.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">21</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Hormuz heats.</b> Iran war enters its ninth month as tanker attacks intensify in the strait.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">22</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Yellow Line.</b> Israeli troops cross the Gaza ceasefire line, the first such move since the truce.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">23</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Gaza's children.</b> Health authorities say more than 22,000 children have been killed in the war.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">24</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Iraq deal.</b> Baghdad reaches a deal with Kataib Hezbollah over forces in Jurf al-Sakhar.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">25</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">War's cost.</b> Pentagon puts the US campaign against Iran at about $48.3 billion.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">26</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Saudi shield.</b> Saudi Arabia intercepts Houthi missiles and drones over its southern region.</div>
+      <div class="it"><span class="rg me">ME</span> <span class="n">27</span> <span class="src">AP</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">COP31 draft.</b> Antalya draft drops all fossil-fuel phase-out language — but admits the 1.5°C goal will be overshot.</div>
     </div>
     <div class="col">
-      <div class="it"><span class="rg ap">AP</span> <span class="n">28</span> <b class="h">North Korea.</b> IAEA says Pyongyang is expanding uranium enrichment at Yongbyon.</div>
-      <div class="it"><span class="rg af">AF</span> <span class="n">29</span> <b class="h">Senegal wreck.</b> Migrant boat capsizes off Yenne; about 100 aboard, dozens missing, four bodies found.</div>
-      <div class="it"><span class="rg af">AF</span> <span class="n">30</span> <b class="h">Sudan strike.</b> Drone strike kills 10 at a gold mine in South Kordofan, monitors say.</div>
-      <div class="it"><span class="rg af">AF</span> <span class="n">31</span> <b class="h">Ebola ends.</b> Kenya discharges its last Ebola patient, 37 days after the first case.</div>
-      <div class="it"><span class="rg af">AF</span> <span class="n">32</span> <b class="h">Somalia row.</b> Mogadishu orders the UAE ambassador to leave within 72 hours.</div>
-      <div class="it"><span class="rg af">AF</span> <span class="n">33</span> <b class="h">Nigeria reform.</b> Nigeria moves to end criminal penalties for attempted suicide.</div>
-      <div class="it"><span class="rg oc">OC</span> <span class="n">34</span> <b class="h">Voyager 1.</b> Its radio signal now takes about a day to travel between Earth and the craft.</div>
-      <div class="it"><span class="rg na">NA</span> <span class="n">35</span> <b class="h">Anthropic IPO.</b> Priced at $83, it raises a record $81.3B; shares close at $97.17, up 17%.</div>
-      <div class="it"><span class="rg na">NA</span> <span class="n">36</span> <b class="h">Stocks slide.</b> S&amp;P 500 −2.0% on Thursday; Japan's Nikkei drops 4.8% on Friday.</div>
-      <div class="it"><span class="rg na">NA</span> <span class="n">37</span> <b class="h">Nvidia probe.</b> California subpoenas Nvidia over whether advanced chips or secrets reached China.</div>
-      <div class="it"><span class="rg na">NA</span> <span class="n">38</span> <b class="h">Cyber chief out.</b> White House cyber chief Sean Cairncross steps down after a week of tech outages.</div>
-      <div class="it"><span class="rg na">NA</span> <span class="n">39</span> <b class="h">Rose pardoned.</b> Trump posthumously pardons baseball great Pete Rose.</div>
+      <div class="it"><span class="rg ap">AP</span> <span class="n">28</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">North Korea.</b> IAEA says Pyongyang is expanding uranium enrichment at Yongbyon.</div>
+      <div class="it"><span class="rg af">AF</span> <span class="n">29</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Senegal wreck.</b> Migrant boat capsizes off Yenne; about 100 aboard, dozens missing, four bodies found.</div>
+      <div class="it"><span class="rg af">AF</span> <span class="n">30</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Sudan strike.</b> Drone strike kills 10 at a gold mine in South Kordofan.</div>
+      <div class="it"><span class="rg af">AF</span> <span class="n">31</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Ebola ends.</b> Kenya discharges its last Ebola patient, 37 days after the first case.</div>
+      <div class="it"><span class="rg af">AF</span> <span class="n">32</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Somalia row.</b> Mogadishu orders the UAE ambassador to leave within 72 hours.</div>
+      <div class="it"><span class="rg af">AF</span> <span class="n">33</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Nigeria reform.</b> Nigeria moves to end criminal penalties for attempted suicide.</div>
+      <div class="it"><span class="rg oc">OC</span> <span class="n">34</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Voyager 1.</b> Its radio signal now takes about a day to travel between Earth and the craft.</div>
+      <div class="it"><span class="rg na">NA</span> <span class="n">35</span> <span class="src">CNN</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">Anthropic IPO.</b> Priced at $83, it raises a record $81.3B; shares close at $97.17, up 17%.</div>
+      <div class="it"><span class="rg na">NA</span> <span class="n">36</span> <span class="src">REUTERS</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Stocks slide.</b> S&amp;P 500 −2.0% on Thursday; Japan's Nikkei drops 4.8% on Friday.</div>
+      <div class="it"><span class="rg na">NA</span> <span class="n">37</span> <span class="src">CA DOJ</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">Nvidia probe.</b> California subpoenas Nvidia over whether advanced chips or secrets reached China.</div>
+      <div class="it"><span class="rg na">NA</span> <span class="n">38</span> <span class="src">WSJ</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">Cyber chief out.</b> White House cyber chief Sean Cairncross steps down after a week of tech outages.</div>
+      <div class="it"><span class="rg na">NA</span> <span class="n">39</span> <span class="src">AP</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">Rose pardoned.</b> Trump posthumously pardons baseball great Pete Rose.</div>
     </div>
     <div class="col">
-      <div class="it"><span class="rg na">NA</span> <span class="n">40</span> <b class="h">Fiona dies.</b> The beloved hippo dies at Cincinnati Zoo, aged 9, after swallowing a visitor's knit hat.</div>
-      <div class="it"><span class="rg na">NA</span> <span class="n">41</span> <b class="h">Rikers to close.</b> New York's mayor plans to shut the Rikers Island jail complex before 2032.</div>
-      <div class="it"><span class="rg la">LA</span> <span class="n">42</span> <b class="h">Haiti raid.</b> Police say 34 suspected gang members were killed in a Martissant operation.</div>
-      <div class="it"><span class="rg la">LA</span> <span class="n">43</span> <b class="h">Bukele again.</b> El Salvador's Bukele registers for a third term, eyeing power to 2033.</div>
-      <div class="it"><span class="rg la">LA</span> <span class="n">44</span> <b class="h">US–Venezuela.</b> Washington and Caracas sign a military cooperation deal.</div>
-      <div class="it"><span class="rg la">LA</span> <span class="n">45</span> <b class="h">Amazon rights.</b> Lula advances Indigenous land protection on a visit to Chief Raoni.</div>
-      <div class="it"><span class="rg la">LA</span> <span class="n">46</span> <b class="h">Colombia tax.</b> Protests over government tax proposals.</div>
-      <div class="it"><span class="rg oc">OC</span> <span class="n">47</span> <b class="h">Cyclone Xavier.</b> Severe Tropical Cyclone Xavier, Category 4, is tracked in the South Pacific.</div>
-      <div class="it"><span class="rg oc">OC</span> <span class="n">48</span> <b class="h">Pacific plea.</b> Island states press COP31 for reliable climate-adaptation finance.</div>
-      <div class="it"><span class="rg oc">OC</span> <span class="n">49</span> <b class="h">GTA 6 record.</b> Take-Two reports $3.79B in day-one sales and 32.5M pre-order copies — a record.</div>
-      <div class="it"><span class="rg oc">OC</span> <span class="n">50</span> <b class="h">Pacific pact.</b> Australia and Japan deepen security coordination with Indo-Pacific partners.</div>
+      <div class="it"><span class="rg na">NA</span> <span class="n">40</span> <span class="src">AP</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">Fiona dies.</b> The beloved hippo dies at Cincinnati Zoo, aged 9, after swallowing a visitor's knit hat.</div>
+      <div class="it"><span class="rg na">NA</span> <span class="n">41</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Rikers to close.</b> New York's mayor plans to shut the Rikers Island jail complex before 2032.</div>
+      <div class="it"><span class="rg la">LA</span> <span class="n">42</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Haiti raid.</b> Police say 34 suspected gang members were killed in a Martissant operation.</div>
+      <div class="it"><span class="rg la">LA</span> <span class="n">43</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Bukele again.</b> El Salvador's Bukele registers for a third term, eyeing power to 2033.</div>
+      <div class="it"><span class="rg la">LA</span> <span class="n">44</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">US–Venezuela.</b> Washington and Caracas sign a military cooperation deal.</div>
+      <div class="it"><span class="rg la">LA</span> <span class="n">45</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Amazon rights.</b> Lula advances Indigenous land protection on a visit to Chief Raoni.</div>
+      <div class="it"><span class="rg la">LA</span> <span class="n">46</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Colombia tax.</b> Protests over government tax proposals.</div>
+      <div class="it"><span class="rg oc">OC</span> <span class="n">47</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Cyclone Xavier.</b> Severe Tropical Cyclone Xavier, Category 4, is tracked in the South Pacific.</div>
+      <div class="it"><span class="rg oc">OC</span> <span class="n">48</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Pacific plea.</b> Island states press COP31 for reliable climate-adaptation finance.</div>
+      <div class="it"><span class="rg oc">OC</span> <span class="n">49</span> <span class="src">TAKE-TWO</span> <span class="conf">&#9679;&#9679;&#9679;</span> <b class="h">GTA 6 record.</b> Take-Two reports $3.79B in day-one sales and 32.5M pre-order copies — a record.</div>
+      <div class="it"><span class="rg oc">OC</span> <span class="n">50</span> <span class="src">AP</span> <span class="conf med">&#9679;&#9679;&#9675;</span> <b class="h">Pacific pact.</b> Australia and Japan deepen security coordination with Indo-Pacific partners.</div>
       <div class="it" style="border-top:1px solid #b9ad8d; padding-top:4px;"><b>DRAWN IN THIS ISSUE (8):</b> globe · Shenzhen skyline · scales of justice · Kerch bridge · cyclone spiral · Fiona the hippo · world map · market bars.</div>
     </div>
   </div>
 
+<div class="srcmat"><b>SOURCES &mdash; ALL 50 STORIES SOURCED:</b> <span class="k">REUTERS 23</span> &bull; AP 20 &bull; WSJ 2 &bull; CNN 1 &bull; ICJ 1 &bull; IMD 1 &bull; CA DOJ 1 &bull; TAKE-TWO 1 &nbsp;|&nbsp; <b>HOW SURE:</b> <span style="color:#2e6b34">&#9679;&#9679;&#9679;</span> CONFIRMED (11) &bull; <span style="color:#b45309">&#9679;&#9679;&#9675;</span> REPORTED (39)</div>
   <div class="foot"><b>THE WORLD</b> — Friday 20 November 2026 · All 50 stories sourced from reporting dated 19–20 November 2026 (UTC): Reuters, AP, UN News, ICJ, CNN, WSJ, Barron's, India Meteorological Department, California Dept. of Justice, Take-Two Interactive. Figures as reported; casualty counts may be revised. · Drawn illustrations are original SVG artwork; no photographs used.</div>
 
 </div></body></html>
